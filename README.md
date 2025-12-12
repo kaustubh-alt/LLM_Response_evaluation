@@ -16,7 +16,7 @@ This pipeline is designed to be embedded within a RAG application. For each user
 
 The pipeline evaluates a `(Query, Response, Retrieved_Context)` triplet across three main pillars.
 
-![Diagram of the RAG Evaluation Pipeline](https://googleusercontent.com/image_generation_content/9)
+![Diagram of the RAG Evaluation Pipeline](/Gemini_Generated_Image.png)
 
 ### 1. Relevance & Completeness
 
