@@ -109,7 +109,7 @@ The core logic is encapsulated in the `simple_eval.py` script. You can run it di
 1.  Ensure you have your chat logs (`sample-chat-conversation-01.json`) and context data (`sample_context_vectors-01.json`) in the same directory.
 2.  Run the script:
     ```bash
-    python simple_eval.py
+    python eval_pipeline.py
     ```
 3.  The script will print a summary of average scores to the console and save the detailed, turn-by-turn results to a CSV file named `simple_eval_results.csv`.
 
