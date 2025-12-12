@@ -501,9 +501,10 @@ class RAGEvaluationPipeline:
 if __name__ == "__main__":
     # CONFIGURATION
     CHAT_FILE = "sample-chat-conversation-01.json"
-    CONTEXT_FILE = "sample_context_vectors-02.json"
+    CONTEXT_FILE = "sample_context_vectors-01.json"
     OUTPUT_FILE = "eval_results_refined.json"
 
         
     pipeline = RAGEvaluationPipeline(top_k_contexts=3)
+
     pipeline.run(CHAT_FILE, CONTEXT_FILE, OUTPUT_FILE)
