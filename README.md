@@ -20,7 +20,7 @@ It ingests chat conversations and vectorized context, evaluates each AI response
 
 ## Detailed Technical Workflow (Deep)
 
-#[Flow Structure](./gemini_image.png)
+# ![Flow Structure](./gemini_image.png)
 
 ### 1) Model Bootstrapping (Singleton Cache)
 - **Goal:** Load heavy models once to keep per-turn latency low.
