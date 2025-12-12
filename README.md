@@ -177,4 +177,4 @@ python -m nltk.downloader punkt
 - Store flagged turns in an annotation platform (Label Studio, internal dashboard) for human review loop and model improvement.
 
 ## Thank You
-This pipeline is built to be fast, cheap, microservice-friendly, and production-ready. If you want this exact content saved as a downloadable `.md` on your machine or generated as a file in the environment, tell me where to write it and I will produce it.
+This pipeline is built to be fast, cheap, microservice-friendly.
