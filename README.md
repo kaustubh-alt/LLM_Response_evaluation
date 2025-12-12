@@ -1,15 +1,3 @@
----
-title: "RAG Evaluation & Quality Assurance Pipeline (Python)"
-description: "A complete, production-ready evaluator for Retrieval-Augmented Generation (RAG) systems measuring relevance, completeness, hallucination, factual accuracy, token cost, and context alignment."
-diagram_url: "./gemini_image.png"
-primary_script: "eval_pipeline.py"
-expected_inputs:
-  - chat_file: "sample-chat-conversation-01.json (contains conversation_turns with role labels 'User' and 'AI/Chatbot')"
-  - context_file: "sample_context_vectors-02.json (contains data.vector_data list of {text: ...})"
-outputs:
-  - "eval_results_refined.json"
-  - "eval_results_refined.csv"
----
 
 # RAG Evaluation & Quality Assurance Pipeline (Python)
 
@@ -31,6 +19,9 @@ It ingests chat conversations and vectorized context, evaluates each AI response
 4. Save a detailed JSON (per-turn breakdown) and a CSV summary.
 
 ## Detailed Technical Workflow (Deep)
+
+#[Flow Structure](./gemini_image.png)
+
 ### 1) Model Bootstrapping (Singleton Cache)
 - **Goal:** Load heavy models once to keep per-turn latency low.
 - **Models & Tools:**
